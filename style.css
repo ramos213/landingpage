@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(img/ChatGPT\ Image\ 27\ de\ fev.\ de\ 2026\,\ 18_59_41.png) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.cabeca-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    font-weight: 100;
+    font-family: "Inter", sans-serif;
+    padding: 20px;
+    font-size: 20px;
+}
+.cabeca-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 370px;
+    transition: all 0.3s ease;
+}
+.cabeca-menu li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.856);
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+}
+.navegacao-img {
+    display: flex;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    gap: 10px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+    gap: 20px;
+}
+.hero-titulo {
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+}
+.color-white {
+    color: white;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+.hero-descricao {
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    max-width: 570px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.815);
+}
+
+.hero-botao {
+    background: linear-gradient(to right, #151a63, #735dc0);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+}
+
+.hero-botao:hover {
+    background: linear-gradient(to right, #5a43af, #151a63);
+}
+
+.hero-botao2 {
+    background: linear-gradient(to right, #ffffff, #7d888d);
+    color: black;
+    padding: 10px 17px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+}
+
+.hero-botao2:hover {
+    background: linear-gradient(to right, #7d888d, #ffffff);
+}
+
+.botao {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .cabeca-menu {
+        display: none;
+    }
+    .hero-titulo {
+        font-size: 32px;
+    }
+}
